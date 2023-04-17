@@ -14,4 +14,4 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run Cypress Tests
-        run: npm run test:cypress
+        run: cypress-io/github-action@v4
